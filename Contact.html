@@ -1,0 +1,92 @@
+
+<!DOCTYPE HTML>
+<!-- Author : Christopher COleman
+   Date Created: 30-01-2020
+   Page Description - Website Project-->
+   
+<html lang="en">											<!-- Primary Language -->
+<head>
+<meta charset="utf-8"/>   									 <!-- Character Encoding-->
+<meta name="description" content="Company Website">
+<meta name="keywords" content="computer,simrigs,simulation,custom pc,">
+<meta name="authors" content="Christopher Coleman">
+<title>The Computer </title>
+<link rel="stylesheet" type="text/css" href="styles/styles.css"/>
+</head>
+<body>														<!-- Start of main body -->		
+<header>
+  
+        <img style="float: left; height: 50px; width: 50px;" src="images/programming.gif" alt="logo">
+           
+      <center><h1>The Computer Place</h1></center>                                                                                    
+    
+     
+
+ 
+            <nav>
+                <ul>
+                      <li id ="active"> <a href="index.html"> Home </a></li>
+                    <li><a href="Sim_Rig.html"> Sim_Rig </a></li>
+                      <li><a href="Custom_Pc.html"> Custom Pcs </a></li>
+                  
+                    
+                      
+                 </ul>
+            </nav>
+
+
+</header>
+    
+   
+<section id="buttions">
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="Contact.html">Contact</a>
+    </div>
+    </section>
+
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+    
+    <center><h1>The Computer Place</h1></center>
+   <main>
+         
+    <section> 
+        <form action="http://year1.ccpdev.me/FormTest.php" method="post">
+                  <h1>Contact Form</h1>
+  <label for="first_name"> First Name:<span class="required">*</span> </label>            
+  <input name="name" type="text" class="feedback-input" placeholder="Name" autofocus required />
+  
+  <input name="email" type="text" class="feedback-input" placeholder="Email" />
+  <textarea name="text" class="feedback-input" placeholder="Comment"></textarea>
+  <input type="submit" value="SUBMIT"/>
+</form>
+    </section> 
+       <sectionm id="maps" >
+       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9393.304738014991!2d-8.95876075269451!3d53.943713911319044!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48594d909ef4bf4d%3A0xa00c7a9973193d0!2sSwineford%2C%20Swinford%2C%20Co.%20Mayo!5e0!3m2!1sen!2sie!4v1586866633303!5m2!1sen!2sie" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+       
+       </sectionm>
+
+    
+   
+</main>
+<footer>
+  <p>Posted by: Christopher Coleman</p>
+  <p>Contact information: <a href="mailto:someone@example.com">
+  someone@example.com</a>.</p>
+</footer>
+    <script type="text/javascript">
+   
+        document.getElementById("curryear").innerText = (new Date()).getFullYear();
+       </script>
+</body>
+</html>
